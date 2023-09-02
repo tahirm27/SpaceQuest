@@ -1,0 +1,195 @@
+.vidbg
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+.image-container
+{
+  width: 50px;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+img
+{
+  width: 60vw;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+#content-title
+{
+  font-family: "Righteous";
+  color: white;
+}
+
+#content-paragraph
+{
+  font-family: "Righteous";
+  color: white;
+}
+
+.image-content-container
+{
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px transparent;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px black;
+}
+
+#homebutton
+{
+  position: relative;
+  width: 50px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px black;
+}
+
+.homebutton-container
+{
+  position: relative;
+  display: flex;
+  height: auto;
+  width: 50px;
+  justify-content: left;
+  flex-direction: column;
+  align-items: start;
+  z-index: 2;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px transparent;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px black;
+}
+
+body
+{
+  background-color: #393D47;
+}
+
+@font-face {
+  font-family: "Righteous";
+  src: url(./assets/Righteous/Righteous-Regular.ttf);
+}
+
+video
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.title
+{
+  position: relative;
+  height: 60vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 60px;
+  font-family: "Righteous";
+  background: linear-gradient(90deg, blue, blue, purple, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle
+{
+  position: relative;
+  /* height: 60vh; */
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Righteous";
+  background: linear-gradient(90deg, blue, blue, purple, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#download-button
+{
+  background-color: #77DD77;
+  border-radius: 5px;
+  border: 2px;
+  color: white;
+  font-family: "Righteous";
+}
+
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+form
+{
+  position: absolute;
+  bottom: 45%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  z-index: 2;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+form input
+{
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  font-family: "Righteous";
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px transparent;
+  color: white;
+  box-shadow: 0 0 10px 2px black;
+}
+
+form button
+{
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 25px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px transparent;
+  box-shadow: 0 0 10px 2px black;
+}

@@ -1,2 +1,2 @@
 # SpaceQuest
-A webapp for users to explore the observable universe.
+A webapp tool for users to explore and download NASA's APOD imagery since 1995.
